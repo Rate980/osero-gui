@@ -1,0 +1,26 @@
+table {
+  background-color: #0a792f;
+  height: 700px;
+  width: 700px;
+  margin: 0 auto;
+  padding: 0;
+}
+table,
+td,
+th {
+  border: 2px #000 solid;
+  border-collapse: collapse;
+}
+
+.black {
+  background-image: url(../img/black.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.white {
+  background-image: url(../img/white.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

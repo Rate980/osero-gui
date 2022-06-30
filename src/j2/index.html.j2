@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <table>
+    <tbody>
+      {% for i in range(0, 8) %}
+      <tr>
+        {% for j in range(0, 8) %}
+          <td id="tile_{{i}}{{j}}"></td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+
+</html>
